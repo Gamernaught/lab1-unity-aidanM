@@ -28,9 +28,5 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else if (collision.gameObject.CompareTag("Player"))
-        {
-
-        }
     }
 }
